@@ -6,4 +6,66 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
+}
+.nav-primary {
+  color: #181818;
+  font-size: 45px;
+}
+.primary_text {
+  color: #fd6e0a;
+}
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  color: #474747;
+  font-size: 20px;
+  margin-right: 50px;
+  font-weight: 400;
+}
+nav a {
+  text-decoration: none;
+}
+.btnPrimary {
+  padding: 15px 35px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+/* ---- NAV SECTION END--- */
+
+.header {
+  background: #fff8f3;
+  background-image: url(/images/);
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+}
+.bannerText {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 600;
+}
+.bannerTitle {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 700;
+}
+.bannerPragraph {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.bannerImg {
+  width: 500pxs;
 }
